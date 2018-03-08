@@ -1,0 +1,263 @@
+.wrapper {
+    height: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 1.5em;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-top: .25em;
+    border-bottom: #ccc solid 1px;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 1.25em;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-top: .25em;
+    border-bottom: #ccc solid 1px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover {
+    font-weight: bold;
+}
+li, ul  {
+    display: inline;    
+}
+li {
+    float: left;
+    /* margin-left: 10px; */
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: #ccc thin;
+    border-top:#ccc thin;
+    border-style: solid;
+    top: 0%;
+    overflow: auto;
+    clear: both;
+}
+
+body {background-image: url(../images/background.png)
+}
+
+#YourName {
+    font-size: 2em;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 169px;
+    float: left;
+    margin-left: .6em;
+    text-align: center;
+    height: 2em;
+    padding: .5em;
+}
+.headerlist {
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    margin-top: 3em;
+    margin-right: 7em;
+    position: relative;
+    bottom: 2px;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    color: #fff;
+    clear: both;
+    font-size: .25em;
+    height: 3em;
+    text-align: center;
+    border-top: #4aaaa5 solid 2px;
+    padding-top: 1%;
+    margin-top: 1em;
+    clear: both;
+}
+
+#copyright {
+    color: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.contenttitle {
+    border-bottom: grey solid 1px;
+    margin-bottom: .25em;
+}
+
+#sidebar {
+    text-align: center;
+    margin: 1em;
+}
+
+input {
+    width:90%;
+    margin-bottom: 2em;
+}
+
+.comments {
+    height: 15em;
+}
+
+.sidebar {
+    background-color: #fff;
+    float: left;
+    margin: 1em;
+}
+.main_section {
+    background-color: #fff;
+    float: left;
+    margin-top: 1em;
+    margin:1em;
+    /* max-width: 650px; */
+}
+form {
+    margin-left: 1em;
+    margin-top: 1em;
+width: 300px;
+}
+#MyImage {
+    height: 200px;
+    width: 200px;
+    margin: .25em;
+    
+}
+
+.about_me_text {
+    text-indent: 2em;
+}
+.aboutme {
+    max-width: 650px;
+}
+.namebox {
+    overflow: auto;
+    float: left;
+}
+
+.social_media_container {
+    margin: 1em;
+}
+
+.padding {
+    margin-left: 10px;
+}
+
+.portfolio_pictures {
+    /* overflow: auto; */
+    max-width: 650px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .headerlist {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .main_section {
+        width: 95%;
+        margin:1em;
+    }
+    .sidebar {
+        width:95%;
+        margin:1em;
+    }
+    .social_media_container {
+        width:95%;
+    }
+    
+    .wrapper {
+        width:100%;
+    }
+
+    li {
+        /* width: 33%; */
+        padding: 2%;
+        float: left;
+        margin-left: 0;
+    }
+
+    form {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .header {
+        position: relative;
+        width:100%;
+        margin: 0;
+    }
+    .namebox {
+        width:100%;
+        margin: 0;
+    }
+    #YourName {
+        width: 100%;
+        margin: 0;
+    }
+    .headerlist {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .main_section {
+        width:95%;
+        margin:1em;
+    }
+    .sidebar {
+        width:95%;
+        margin:1em;
+    }
+    .social_media_container {
+        width:95%;
+    }
+    
+    .wrapper {
+        width:100%;
+    }
+
+    li {
+        /* width: 33%; */
+        padding: 2%;
+        float: left;
+        margin-left: 0;
+    }
+    .portfolio_image {
+        width: 80%;
+
+    }
+
+}
+@media only screen and (min-width: 980px) {
+    .portfolio_image {
+        display: block;        
+    }
+}
